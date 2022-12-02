@@ -8,15 +8,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.gargoylesoftware.htmlunit.javascript.SimpleScriptable;
-import com.gargoylesoftware.htmlunit.javascript.host.Iterator;
-import com.gargoylesoftware.htmlunit.javascript.host.Set;
-
 public class TestTwo {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-																					System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
